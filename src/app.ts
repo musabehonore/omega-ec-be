@@ -15,4 +15,4 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use(router);
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-export default app;    
+export default app;
