@@ -1,7 +1,7 @@
 {
-  "name": "alpha-ec-be",
+  "name": "omega-ec-be",
   "version": "1.0.0",
-  "description": "alpha team project",
+  "description": "OMEGA E-COMMERCE",
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test && tsc && npm run demigrate && npm run migrate && npm run seed && npm run test:coverage",
@@ -32,7 +32,7 @@
     ],
     "exec": "npm run lint:fix && npm run prettier:fix &&  cross-env NODE_ENV=development tsc && node --max-old-space-size=4096 ./dist/server.js"
   },
-  "author": "alpha atlp team",
+  "author": "OMEGA",
   "license": "ISC",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
