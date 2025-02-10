@@ -17,7 +17,7 @@ export const logger = createLogger({
     format.prettyPrint(),
     format.json()
   ),
-  defaultMeta: { service: 'alpha-ec-be' },
+  defaultMeta: { service: 'omega-ec-be' },
   transports: [
     new transports.File({
       filename: path.join(logDirectory, 'error.log'),
